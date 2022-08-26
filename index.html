@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class 4</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            padding: 30px;
+            height: 80vh;
+            display: grid;
+            place-items: center;
+            background-color: aquamarine;
+        }
+        button{
+            font-size: 20px;
+            padding: 20px 35px;
+            background-color: transparent;
+            border: 5px solid black;
+            border-radius: 50px;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <button onclick="changeBackgroundColor()">
+            Change Background Color
+        </button>
+    </div>
+    <div>
+        <button id="btn" onclick="changeTextColor()">
+            Change Text Color
+        </button>
+    </div>
+
+    <script src = "./main.js"></script>
     
 </body>
 </html>
